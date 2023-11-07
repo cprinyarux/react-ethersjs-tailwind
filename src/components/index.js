@@ -5,4 +5,5 @@ export { default as Footer } from "./Footer";
 export { default as Services } from "./Services";
 export { default as Transactions } from "./Transactions";
 export { default as Faucet } from "./Faucet";
+export { default as DAO } from "./DAO";
 export { default as Home } from "./Home";

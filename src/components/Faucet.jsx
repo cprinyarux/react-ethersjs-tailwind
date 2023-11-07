@@ -21,6 +21,7 @@ const Faucet = () => {
   };
 
   return (
+    
     <div className="flex flex-col h-full mt-32 mb-32 w-full justify-center items-center text-white">
       <h1 className="text-3xl">Request Hack Token</h1>
       <form className="bg-white bg-opacity-20 mt-16 w-3/6 " onSubmit={requestToken}>

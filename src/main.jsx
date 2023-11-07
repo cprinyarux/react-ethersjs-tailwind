@@ -9,7 +9,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Layout from "./Layout";
-import { Welcome, Faucet, Home } from "./components";
+import { Welcome, Faucet, Home,DAO } from "./components";
 
 import "./index.css";
 
@@ -17,7 +17,8 @@ import "./index.css";
 const router = createBrowserRouter(
    createRoutesFromElements(
     <Route path="/" element={<Layout />}>
-      <Route index element={<Home />} />
+      <Route path="/home" index element={<Home />} />
+      <Route path="dao" element={<DAO />} />
       <Route path="faucet" element={<Faucet />} />
     </Route>
   ),
